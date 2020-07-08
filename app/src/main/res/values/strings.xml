@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="your_text">By Continuing,You agree to Our\n<u>Terms of Sevrices and Privacy policy</u>.</string>
+    <string name="login">Already a Member? <font color='#FF8C00'>Login</font></string>
+</resources>

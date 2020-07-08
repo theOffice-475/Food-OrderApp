@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".next">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="407dp"
+        android:layout_height="322dp"
+        android:layout_marginBottom="63dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bgtwo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="314dp"
+        android:layout_marginRight="314dp"
+        android:layout_marginBottom="220dp"
+        android:text="HURRY!!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="124dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/object" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text="HUNGER DON'T WAIT"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="377dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/btnmain" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="365dp"
+            android:layout_height="34dp"
+            android:layout_alignLeft="@+id/imageView12"
+            android:layout_alignTop="@+id/imageView12"
+            android:layout_alignRight="@+id/imageView12"
+            android:layout_alignBottom="@+id/imageView12"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="GET STARTED"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/imageView12"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/btnsecndry" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="365dp"
+            android:layout_height="34dp"
+            android:layout_alignLeft="@+id/imageView17"
+            android:layout_alignTop="@+id/imageView17"
+            android:layout_alignRight="@+id/imageView17"
+            android:layout_alignBottom="@+id/imageView17"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="Continue without Login"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/imageView17"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/btnsecndry" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="365dp"
+            android:layout_height="34dp"
+            android:layout_alignLeft="@+id/imageView18"
+            android:layout_alignTop="@+id/imageView18"
+            android:layout_alignRight="@+id/imageView18"
+            android:layout_alignBottom="@+id/imageView18"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
